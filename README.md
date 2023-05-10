@@ -12,9 +12,9 @@ git status<br/>
 git commit -m "title" -m "description"<br/>
 ## before pushing to github, create an empty repository on github and copy the ssl connection string
 create a new repository on github<br/>
-get ssl connection string from github<br/>
+get ssh connection string from github<br/>
 ## tell git where to push the repository
-git remote add origin "ssl connection string goes here"<br/>
+git remote add origin "ssh connection string goes here"<br/>
 ## check if origin is ok
 git remote -v<br/>
 ## push the repository, if you add "-u", then you can just use "git push"
